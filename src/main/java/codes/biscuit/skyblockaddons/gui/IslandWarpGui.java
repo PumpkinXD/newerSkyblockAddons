@@ -298,7 +298,7 @@ public class IslandWarpGui extends GuiScreen {
     @Getter
     public enum Island {
         THE_END("The End", 290, -10),
-        CRIMSON_ISLE("Crimson Isle", 900, 150),
+        CRIMSON_ISLE("Crimson Isle", 900, -50),
         THE_PARK("The Park", 103, 370),
         SPIDERS_DEN("Spider's Den", 500, 420),
         DEEP_CAVERNS("Deep Caverns", 1400, 200),
