@@ -298,7 +298,7 @@ public class IslandWarpGui extends GuiScreen {
     @Getter
     public enum Island {
         THE_END("The End", 290, -10),
-        CRIMSON_ISLE("Crimson Isle", 900, -50),
+        CRIMSON_ISLE("Crimson Isle", 900, 150),
         THE_PARK("The Park", 103, 370),
         SPIDERS_DEN("Spider's Den", 500, 420),
         DEEP_CAVERNS("Deep Caverns", 1400, 200),
@@ -376,11 +376,12 @@ public class IslandWarpGui extends GuiScreen {
         VOID_SEPULTURE("void", "Void Sepulture", Island.THE_END, true, 370, 227),
 
         CRIMSON_ISLE("nether", Translations.getMessage("warpMenu.spawn"), Island.CRIMSON_ISLE, true, 80, 350),
-        FORGOTTEN_SKULL("kuudra", "Forgotten Skull", Island.CRIMSON_ISLE, true, 275, 150),
-        THE_WASTELAND("wasteland", "The Wasteland", Island.CRIMSON_ISLE, true, 275, 180),
-        DRAGONTAIL("dragontail", "Dragontail", Island.CRIMSON_ISLE, true, 60, 200),
-        SCARLETON("scarleton", "Scarleton", Island.CRIMSON_ISLE, true, 400, 180),
-        SMOLDERING_TOMB("smold", "Smoldering Tomb", Island.CRIMSON_ISLE, true, 275, 250),
+        FORGOTTEN_SKULL("kuudra", "Forgotten Skull", Island.CRIMSON_ISLE, true, 430, 150),
+        THE_WASTELAND("wasteland", "The Wasteland", Island.CRIMSON_ISLE, true, 400, 150),
+        SMOLDERING_TOMB("smold", "Smoldering Tomb", Island.CRIMSON_ISLE, true, 450, 180),
+        DRAGONTAIL("dragontail", "Dragontail", Island.CRIMSON_ISLE, true, 100, 150),
+        SCARLETON("scarleton", "Scarleton", Island.CRIMSON_ISLE, true, 425, 275),
+
 
         THE_BARN("barn", Translations.getMessage("warpMenu.spawn"), Island.THE_BARN, true, 140, 150),
         MUSHROOM_DESERT("desert", Translations.getMessage("warpMenu.spawn"), Island.MUSHROOM_DESERT, true, 210, 295),
