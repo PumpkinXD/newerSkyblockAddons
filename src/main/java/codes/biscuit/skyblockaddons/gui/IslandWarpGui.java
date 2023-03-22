@@ -375,8 +375,8 @@ public class IslandWarpGui extends GuiScreen {
         DRAGONS_NEST("drag", "Dragon's Nest", Island.THE_END, 260, 248),
         VOID_SEPULTURE("void", "Void Sepulture", Island.THE_END, true, 370, 227),
 
-        CRIMSON_ISLE("nether", Translations.getMessage("warpMenu.spawn"), Island.CRIMSON_ISLE, true, 80, 350),
-        FORGOTTEN_SKULL("kuudra", "Forgotten Skull", Island.CRIMSON_ISLE, true, 430, 150),
+        CRIMSON_ISLE("nether", Translations.getMessage("warpMenu.spawn"), Island.CRIMSON_ISLE, true, 80, 375),
+        FORGOTTEN_SKULL("kuudra", "Forgotten Skull", Island.CRIMSON_ISLE, true, 460, 130),
         THE_WASTELAND("wasteland", "The Wasteland", Island.CRIMSON_ISLE, true, 400, 150),
         SMOLDERING_TOMB("smold", "Smoldering Tomb", Island.CRIMSON_ISLE, true, 450, 180),
         DRAGONTAIL("dragontail", "Dragontail", Island.CRIMSON_ISLE, true, 100, 150),
