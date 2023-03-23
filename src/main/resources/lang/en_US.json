@@ -673,8 +673,8 @@
     "bossesKilled": "Bosses Killed"
   },
   "warpMenu": {
-    "click": " ",
-    "mustUnlock": " ",
+    "click": "Click a warp point to travel there!",
+    "mustUnlock": "Must have the specific scroll unlocked.",
     "privateIsland": "Private Island",
     "home": "Your Island",
     "spawn": "Spawn",

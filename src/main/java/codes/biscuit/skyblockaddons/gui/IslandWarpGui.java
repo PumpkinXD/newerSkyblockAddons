@@ -155,9 +155,6 @@ public class IslandWarpGui extends GuiScreen {
         int endColor = new Color(0,0, 0, Math.round(255/2F)).getRGB();
         drawGradientRect(0, 0, sr.getScaledWidth(), sr.getScaledHeight(), startColor, endColor);
 
-        drawCenteredString(mc.fontRendererObj, Translations.getMessage("warpMenu.click"), sr.getScaledWidth()/2, 10, 0xFFFFFFFF);
-        drawCenteredString(mc.fontRendererObj, Translations.getMessage("warpMenu.mustUnlock"), sr.getScaledWidth()/2, 20, 0xFFFFFFFF);
-
         GlStateManager.pushMatrix();
         ISLAND_SCALE = 0.7F/1080*mc.displayHeight;
         float scale = ISLAND_SCALE;
