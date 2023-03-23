@@ -1,5 +1,14 @@
 <!--suppress HtmlDeprecatedAttribute -->
-<h1 align="center">SkyblockAddons</h1>
+<h1 align="center">newerSkyblockAddons</h1>
+
+### TODO:
+- 优化mod加载速度
+- 删掉多余功能
+- 执行文件清理
+- 数据统计功能（例：地图传送点点击次数）
+#### For English:
+- Making initialization faster
+- Provide API to other mod
 
 <p align="center">
   <a href="https://github.com/BiscuitDevelopment/SkyblockAddons/releases" target="_blank">
@@ -22,15 +31,7 @@
   </a>
 </p>
 
-### TODO:
-- 优化mod加载速度
-- 删掉多余功能
-- 执行文件清理
-- 数据统计功能（例：地图传送点点击次数）
-#### For English:
-- Making initialization faster
-- Provide API to other mod
-
+<h1 >SkyblockAddons</h1>
 
 A Minecraft Forge mod with many features to make your Hypixel Skyblock experience better.
 
