@@ -22,6 +22,14 @@
   </a>
 </p>
 
+### TODO:
+- 优化mod加载速度
+- 删掉多余功能
+- 执行文件清理
+For English:
+- Making initialization faster
+
+
 A Minecraft Forge mod with many features to make your Hypixel Skyblock experience better.
 
 ```
