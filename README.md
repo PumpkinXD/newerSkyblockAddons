@@ -26,6 +26,7 @@
 - 优化mod加载速度
 - 删掉多余功能
 - 执行文件清理
+- 启动游戏次数统计功能
 #### For English:
 - Making initialization faster
 
