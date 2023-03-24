@@ -305,7 +305,7 @@ public class IslandWarpGui extends GuiScreen {
         HUB("Hub", 300, 724),
         PRIVATE_ISLAND("Private Island", 275, 1122),
         GARDEN("Garden", 50, 1000),
-        DUNGEON_HUB("Dungeon Hub", 1500, 1050);
+        DUNGEON_HUB("Dungeon Hub", 1500, 1050),
         WINTER_ISLAND("Winter Island", 1470, 950);
 
         private final String label;
@@ -387,12 +387,13 @@ public class IslandWarpGui extends GuiScreen {
 
         GOLD_MINE("gold", Translations.getMessage("warpMenu.spawn"), Island.GOLD_MINE, true, 86, 259),
 
+        WINTER_ISLAND("jerry", Translations.getMessage("warpMenu.spawn"), Island.WINTER_ISLAND, true, 1470, 950),
+
         DEEP_CAVERNS("deep", Translations.getMessage("warpMenu.spawn"), Island.DEEP_CAVERNS, true, 97, 213),
         DWARVEN_MINES("mines", "Dwarven Mines", Island.DEEP_CAVERNS, false, 280, 205),
         DWARVEN_FORGE("forge", "Forge", Island.DEEP_CAVERNS, true, 260, 280),
         CRYSTAL_HOLLOWS("crystals", "Crystal Hollows", Island.DEEP_CAVERNS, true, 220, 350),
         CRYSTAL_NUCLEUS("nucleus", "Crystal Nucleus", Island.DEEP_CAVERNS, true, 170, 380),
-        WINTER_ISLAND("jerry", Translations.getMessage("warpMenu.spawn"), Island.WINTER_ISLAND, true, 1470, 950),
         DUNGEON_HUB_ISLAND("dungeon_hub", Translations.getMessage("warpMenu.spawn"), Island.DUNGEON_HUB, false, 35, 80),
         ;
 
