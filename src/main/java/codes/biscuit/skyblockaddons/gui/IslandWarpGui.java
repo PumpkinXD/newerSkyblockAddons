@@ -233,10 +233,10 @@ public class IslandWarpGui extends GuiScreen {
             }
             if (selectedMarker != null) {
                 Minecraft.getMinecraft().thePlayer.sendChatMessage("/warp " + selectedMarker.getWarpName());
-            } /*else {
+            } else {
                 // Weirdly, this command is /warpforge instead of /warp forge
-                Minecraft.getMinecraft().thePlayer.sendChatMessage("/warp" + selectedMarker.getWarpName());
-            }*/
+                Minecraft.getMinecraft().thePlayer.sendChatMessage("/savethejerrys");
+            }
 
         }
 
@@ -306,7 +306,7 @@ public class IslandWarpGui extends GuiScreen {
         PRIVATE_ISLAND("Private Island", 275, 1122),
         GARDEN("Garden", 50, 1000),
         DUNGEON_HUB("Dungeon Hub", 1500, 1050),
-        WINTER_ISLAND("Winter Island", 1470, 950);
+        WINTER_ISLAND("Winter Island", 1470, 850);
 
         private final String label;
         private final int x;
@@ -387,7 +387,7 @@ public class IslandWarpGui extends GuiScreen {
 
         GOLD_MINE("gold", Translations.getMessage("warpMenu.spawn"), Island.GOLD_MINE, true, 86, 259),
 
-        WINTER_ISLAND("jerry", Translations.getMessage("warpMenu.spawn"), Island.WINTER_ISLAND, true, 1470, 950),
+        WINTER_ISLAND(null, Translations.getMessage("warpMenu.spawn"), Island.WINTER_ISLAND, true, 1470, 950),
 
         DEEP_CAVERNS("deep", Translations.getMessage("warpMenu.spawn"), Island.DEEP_CAVERNS, true, 97, 213),
         DWARVEN_MINES("mines", "Dwarven Mines", Island.DEEP_CAVERNS, false, 280, 205),
