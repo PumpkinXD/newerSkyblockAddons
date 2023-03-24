@@ -237,6 +237,7 @@ public class IslandWarpGui extends GuiScreen {
             if (selectedMarker != null) {
                 Minecraft.getMinecraft().thePlayer.sendChatMessage("/warp " + selectedMarker.getWarpName());
             }
+            //forge?
         }
 
         int minecraftScale = new ScaledResolution(mc).getScaleFactor();
