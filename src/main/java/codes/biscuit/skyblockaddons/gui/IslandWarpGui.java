@@ -306,6 +306,7 @@ public class IslandWarpGui extends GuiScreen {
         PRIVATE_ISLAND("Private Island", 275, 1122),
         GARDEN("Garden", 50, 1000),
         DUNGEON_HUB("Dungeon Hub", 1500, 1050);
+        WINTER_ISLAND("Winter Island", 1470, 950);
 
         private final String label;
         private final int x;
@@ -391,9 +392,10 @@ public class IslandWarpGui extends GuiScreen {
         DWARVEN_FORGE("forge", "Forge", Island.DEEP_CAVERNS, true, 260, 280),
         CRYSTAL_HOLLOWS("crystals", "Crystal Hollows", Island.DEEP_CAVERNS, true, 220, 350),
         CRYSTAL_NUCLEUS("nucleus", "Crystal Nucleus", Island.DEEP_CAVERNS, true, 170, 380),
-
+        WINTER_ISLAND("jerry", Translations.getMessage("warpMenu.spawn"), Island.WINTER_ISLAND, true, 1470, 950),
         DUNGEON_HUB_ISLAND("dungeon_hub", Translations.getMessage("warpMenu.spawn"), Island.DUNGEON_HUB, false, 35, 80),
         ;
+
 
         private final String warpName;
         private final String label;
