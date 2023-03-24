@@ -306,7 +306,7 @@ public class IslandWarpGui extends GuiScreen {
         PRIVATE_ISLAND("Private Island", 275, 1122),
         GARDEN("Garden", 50, 1000),
         DUNGEON_HUB("Dungeon Hub", 1500, 1050),
-        WINTER_ISLAND("Winter Island", 1470, 850);
+        WINTER_ISLAND("Winter Island", 1600, 850);
 
         private final String label;
         private final int x;
