@@ -234,7 +234,7 @@ public class IslandWarpGui extends GuiScreen {
             if (selectedMarker != null && selectedMarker.warpName == "jerry") {
                 Minecraft.getMinecraft().thePlayer.sendChatMessage("/savethejerrys");
             }
-            if (selectedMarker != null) {
+            else if (selectedMarker != null) {
                 Minecraft.getMinecraft().thePlayer.sendChatMessage("/warp " + selectedMarker.getWarpName());
             }
             //forge?
