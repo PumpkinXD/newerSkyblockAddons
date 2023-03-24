@@ -231,13 +231,12 @@ public class IslandWarpGui extends GuiScreen {
                     }
                 }, 20);
             }
+            if (selectedMarker == "jerry") {
+                Minecraft.getMinecraft().thePlayer.sendChatMessage("/savethejerrys");
+            }
             if (selectedMarker != null) {
                 Minecraft.getMinecraft().thePlayer.sendChatMessage("/warp " + selectedMarker.getWarpName());
-            } /*else {
-                // Weirdly, this command is /warpforge instead of /warp forge
-                Minecraft.getMinecraft().thePlayer.sendChatMessage("/warp" + selectedMarker.getWarpName());
-            }*/
-
+            }
         }
 
         int minecraftScale = new ScaledResolution(mc).getScaleFactor();
@@ -306,7 +305,7 @@ public class IslandWarpGui extends GuiScreen {
         PRIVATE_ISLAND("Private Island", 275, 1122),
         GARDEN("Garden", 50, 1000),
         DUNGEON_HUB("Dungeon Hub", 1500, 1050),
-        WINTER_ISLAND("Winter Island", 1470, 950);
+        WINTER_ISLAND("Winter Island", 1470, 850);
 
         private final String label;
         private final int x;
