@@ -1,6 +1,9 @@
 <!--suppress HtmlDeprecatedAttribute -->
 <h1 align="center">newerSkyblockAddons</h1>
 
+这里会时不时加入一些半滴觉得有必要更新的内容，比如新出的传送点之类的</p>
+This branch will ONLY update for important things like Warp Menu etc.
+
 ### TODO:
 - 优化mod加载速度
 - 删掉多余功能
@@ -9,6 +12,8 @@
 #### For English:
 - Making initialization faster
 - Provide API to other mod
+
+
 
 <p align="center">
   <a href="https://github.com/BiscuitDevelopment/SkyblockAddons/releases" target="_blank">
@@ -47,8 +52,7 @@ ty for all of you.
 
 - half_drop
 ```
-这里会时不时加入一些半滴觉得有必要更新的内容，比如新出的传送点之类的</p>
-This branch will ONLY update for important things like Warp Menu etc.
+
 
 Special Credits
 -----
