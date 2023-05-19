@@ -364,6 +364,7 @@ public class IslandWarpGui extends GuiScreen {
 
         SPIDERS_DEN("spider", Translations.getMessage("warpMenu.spawn"), Island.SPIDERS_DEN, true, 345, 240),
         SPIDERS_DEN_NEST("nest", "Top of Nest", Island.SPIDERS_DEN, 450, 30),
+        SPIDERS_DEN_SANCTUARY("arachne","Arachne's Sanctuary",Island.SPIDERS_DEN,185,255),
 
         THE_PARK("park", Translations.getMessage("warpMenu.spawn"), Island.THE_PARK, true, 263, 308),
         HOWLING_CAVE("howl", "Howling Cave", Island.THE_PARK, 254, 202),
