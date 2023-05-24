@@ -14,7 +14,7 @@ public enum EssenceType {
     DRAGON,
     GOLD,
     DIAMOND,
-    ICE;
+    ICE,
     CRIMSON;
 
     private String niceName;
