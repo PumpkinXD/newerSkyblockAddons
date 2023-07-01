@@ -115,12 +115,10 @@ public class DataUtils {
     private static ScheduledTask languageLoadingTask = null;
 
     static {
-        String country = Locale.getDefault().getCountry();
-        if (country.equals("CN") || country.equals("HK")) {
             useFallbackCDN = true;
         }
-        connectionManager.setMaxTotal(5);
-        connectionManager.setDefaultMaxPerRoute(5);
+        connectionManager.setMaxTotal(30);
+        connectionManager.setDefaultMaxPerRoute(30);
         registerRemoteRequests();
     }
 
@@ -240,7 +238,7 @@ public class DataUtils {
         }
         
         if (useFallbackCDN) {
-            logger.warn("Could not reach main CDN. Some resources were fetched from fallback CDN.");
+            logger.warn("Resources were fetched from fallback CDN.");
         }
     }
 
