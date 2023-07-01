@@ -115,6 +115,7 @@ public class DataUtils {
     private static ScheduledTask languageLoadingTask = null;
 
     static {
+        String country = Locale.getDefault().getCountry();
             useFallbackCDN = true;
         }
         connectionManager.setMaxTotal(30);
