@@ -116,10 +116,11 @@ public class DataUtils {
 
     static {
         String country = Locale.getDefault().getCountry();
+        if (true) {
             useFallbackCDN = true;
         }
-        connectionManager.setMaxTotal(30);
-        connectionManager.setDefaultMaxPerRoute(30);
+        connectionManager.setMaxTotal(5);
+        connectionManager.setDefaultMaxPerRoute(5);
         registerRemoteRequests();
     }
 
